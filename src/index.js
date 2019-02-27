@@ -14,7 +14,8 @@ import * as serviceWorker from './serviceWorker';
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const rootReducer = combineReducers({
-  // $$$: $$$Reducer
+  // $$$: $$$Reducer,
+  root: (state = {}, action) => state  // this is temp until I build a other reducers
 })
 
 const store = createStore(rootReducer,composeEnhancers(applyMiddleware(thunk)))
