@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const course = (props) => {
   return (
-    <>
+    <tbody>
+    <tr><td colSpan="4"></td></tr>
       <tr className="tableCourse">
         <td rowSpan={props.assignments.length + 1}><a href={props.courseLink}  target="_blank">{props.courseName}</a></td>
       </tr>
@@ -18,12 +19,14 @@ const course = (props) => {
           </tr>
         )
       })}
-      <tr><td colSpan="4"><br/></td></tr>
-    </>
+      <tr><td colSpan="4"></td></tr>
+    </tbody>
   );
 }
 
 export default course;
+
+//<tr><td colSpan="4"><br/></td></tr>
 
 // <tr>
 //   <td> <a href="https://www.theodinproject.com/courses/web-development-101/lessons/html-css?ref=lnav"> Google Home </a> </td>

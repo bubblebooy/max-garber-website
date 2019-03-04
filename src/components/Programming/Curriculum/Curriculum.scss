@@ -9,6 +9,8 @@
 .Curriculum {
   border-collapse: collapse;
   width: 100%;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
   td, th{
     text-align: center;
     padding: .25em 0;
@@ -19,17 +21,24 @@
   }
   .btn {
     color: black;
+    border: solid 1px;
     font-weight: bold;
-    background-color: #7bacde;
+    border-color: #7bacde;
+    // background-color: #7bacde3d;
     border-radius: 5px;
-    padding: .1em .5em;
+    padding: .05em .5em;
     text-decoration: none;
     &:hover{
-      background-color: #275788;
-      color: white;
+      // background-color: #275788;
+      background-color: #7bacde3d;
+      // color: white;
     }
   }
   .assignmentName{
     text-align: left;
+  }
+  tbody{
+    border: 1px solid #eee;
+    padding: 0 .5em;
   }
 }

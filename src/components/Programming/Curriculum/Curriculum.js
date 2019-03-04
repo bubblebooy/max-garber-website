@@ -5,11 +5,11 @@ import Course from './Course/Course'
 const curriculum = (props) => {
   console.log(props.courses);
   return (
-    <table className="Curriculum"><tbody>
-      <tr>
+    <table className="Curriculum">
+      <tbody><tr>
         <th>Course</th>
         <th colSpan="3">Assignment</th>
-      </tr>
+      </tr></tbody>
       {props.courses.map((course)=>(
         <Course
           key={course.name.replace(/\s/g, '')}
@@ -17,7 +17,7 @@ const curriculum = (props) => {
           courseLink={course.link}
           assignments={course.assignments}/>
       ))}
-    </tbody></table>
+    </table>
   );
 }
 
