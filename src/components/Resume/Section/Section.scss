@@ -1,0 +1,38 @@
+.Section {
+  hr {
+    width: 75%;
+    border-style: solid;
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: grey;
+    margin-top: 2em;
+    margin-bottom: 4em;
+  }
+  button.collapsible{
+    color: #11749c;
+    font-size: 1.5em;
+    display: block;
+    background-color: #9e9e9e4a;
+    width: 100%;
+    margin: 2em 0;
+    border: none;
+    padding: .5em;
+    padding-left: 2em;
+    text-align: left;
+    cursor: pointer;
+    &:after{
+      content: "\2212";
+      font-weight: bold;
+      float: right;
+      margin-right: 1em;
+    }
+    &.collapsed{
+      &:after{
+        content: "+";
+      }
+    }
+  }
+  .content {
+    margin-left: 4em;
+  }
+}

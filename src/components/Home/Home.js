@@ -1,11 +1,11 @@
 import React from 'react';
-//import './Home.scss'
+import './Home.scss'
 
 const home = (props) => {
   return (
-    <>
-      <h1> Max Garber </h1> 
-    </>
+    <div className="Home">
+      <h1> Hi, I'm Max </h1>
+    </div>
   );
 }
 
