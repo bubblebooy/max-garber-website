@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/max-garber-website/precache-manifest.b4ee248dff9b95a3a5fe034e10571a55.js"
+  "/max-garber-website/precache-manifest.f6940fdc62cd963dfc31d5b7c4b1efd1.js"
 );
 
 workbox.clientsClaim();
