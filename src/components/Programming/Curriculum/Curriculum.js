@@ -3,7 +3,7 @@ import './Curriculum.scss'
 import Course from './Course/Course'
 
 const curriculum = (props) => {
-  console.log(props.courses);
+  // console.log(props.courses);
   return (
     <table className="Curriculum">
       <tbody><tr>
