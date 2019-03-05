@@ -2,15 +2,38 @@ import React, { Component } from 'react';
 import resume from '../../assets/Max Garber Resume.pdf'
 import './Resume.scss'
 import Section from './Section/Section'
+import Educations from './Educations/Educations'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Resume extends Component {
+  state = {
+    education: [
+      {
+        school:  "University of California Santa Barbara - College of Creative Studies",
+        startDate: "2009",
+        endDate: "2013",
+        degree: "Bachelor of Science in Physics",
+        gpa:"3.48",
+        link: "https://ccs.ucsb.edu/"
+      },
+      {
+        school:  "The Odin Project - Online Open Source Coding Curriculum",
+        startDate: "2018",
+        endDate: null,
+        degree: "Full Stack Web Development",
+        gpa: null,
+        link: "https://www.theodinproject.com/home",
+      },
+    ],
+    experience: {},
+    skills: {},
+  }
   render () {
     return (
       <div className="Resume paper">
         <h2> Max Garber </h2>
-        <h3> <a href={resume}> Download PDF</a> </h3>
+        <h3 className="downloadBanner"> <a href={resume}> Download PDF</a> </h3>
         <div className='Contact-Info card'>
           <p> <FontAwesomeIcon icon="map-marked-alt"/> Chicago, IL </p>
           <p> <FontAwesomeIcon icon="phone"/> +1 (805) 722 2219 </p>
@@ -19,11 +42,7 @@ class Resume extends Component {
           <p> <a href="www.linkedin.com/in/max-garber-8693964a"> <FontAwesomeIcon icon={['fab',"linkedin"]} /> www.linkedin.com/in/max-garber-8693964a </a> </p>
         </div>
         <Section name='Education'>
-          <ul>
-            <li>
-              Bachelor of Science in Physics
-            </li>
-          </ul>
+          <Educations education={this.state.education}/>
         </Section>
         <Section name='Experience'>
           <ul>

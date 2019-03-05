@@ -1,0 +1,15 @@
+.Education{
+  display: flex;
+  padding: .75em 0;
+  p{
+    display: inline;
+  }
+  .degree{
+    font-weight: bold;
+  }
+  .row-1{
+    flex-shrink: 0;
+    width: 10em;
+    text-align: center;
+  }
+}

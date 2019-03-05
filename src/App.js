@@ -9,9 +9,9 @@ import Programming from './components/Programming/Programming'
 import Models from './components/Models/Models'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faPhone , faEnvelope, faMapMarkedAlt} from '@fortawesome/free-solid-svg-icons'
+import { faPhone , faEnvelope, faMapMarkedAlt , faLink} from '@fortawesome/free-solid-svg-icons'
 import { faGithub , faLinkedin } from '@fortawesome/free-brands-svg-icons' //
-library.add(faPhone , faEnvelope, faGithub, faMapMarkedAlt, faLinkedin )
+library.add(faPhone , faEnvelope, faGithub, faMapMarkedAlt, faLinkedin, faLink )
 
 class App extends Component {
   render() {

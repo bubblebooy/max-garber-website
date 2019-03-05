@@ -13,8 +13,8 @@ const course = (props) => {
         let view = assignment.view ? <a className="btn" href={assignment.view} target="_blank"> View </a> : null
         return (
           <tr key={assignment.name.replace(/\s/g, '')}>
-            <td className="assignmentName"> <a href={assignment.link} target="_blank"> {assignment.name} </a> </td>
-            <td> <a href={assignment.github} target="_blank"> <FontAwesomeIcon icon={['fab',"github"]} /> </a> </td>
+            <td className="assignmentName"> <a href={assignment.link} target="_blank"> {assignment.name} <FontAwesomeIcon icon="link" /> </a> </td>
+            <td> <a className="github" href={assignment.github} target="_blank"> <FontAwesomeIcon icon={['fab',"github"]} /> </a> </td>
             <td> {view} </td>
           </tr>
         )

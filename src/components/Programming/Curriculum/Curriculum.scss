@@ -18,8 +18,23 @@
   a{
     color: black;
     text-decoration: none;
+    font-weight: normal;
+    &:hover{
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+  .github{
+    display: inline-block;
+    transition: .5s;
+    &:hover{
+      // background-color: #275788;
+      transform: scale(2)  rotate(-20deg);
+      // color: white;
+    }
   }
   .btn {
+    display: inline-block;
     color: black;
     border: solid 1px;
     font-weight: bold;
@@ -28,14 +43,36 @@
     border-radius: 5px;
     padding: .05em .5em;
     text-decoration: none;
+    transition: .1s;
     &:hover{
       // background-color: #275788;
+      transform: scale(1.1);
       background-color: #7bacde3d;
       // color: white;
     }
   }
   .assignmentName{
     text-align: left;
+    width: 45%;
+    .fa-link{
+      display: none;
+      color: #bbb;
+      font-size: .8em;
+    }
+
+  }
+  tr{
+    &:hover{
+      .fa-link{
+        display: inline-block;
+      }
+    }
+  }
+  .tableCourse{
+    td{
+      width: 35%
+    }
+
   }
   tbody{
     border: 1px solid #eee;
