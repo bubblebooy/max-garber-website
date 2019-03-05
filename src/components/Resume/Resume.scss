@@ -2,6 +2,7 @@
 
   // background-color: #fff5;
   background-color: #e5dfcf;
+  /* Background pattern from Toptal Subtle Patterns */
   background-image: linear-gradient(#a9a69f75,#a9a69f75) , url('../../assets/images/ricepaper2.png') ;
   // background-blend-mode: normal;
   color: black;
@@ -60,15 +61,36 @@
 .card {
     transform: rotate(5deg);
     background-color: #e4e6ea;
+    /* Background pattern from Toptal Subtle Patterns */
     background-image: linear-gradient(#FFF8,#FFF8) , url('../../assets/images/textured_paper.png') ;
     box-shadow: 0 0px 2px 2px rgba(0,0,0,0.15);
     padding: 1em 2em;
 }
 
+.Education , .Experience{
+  display: flex;
+  padding: .75em 0;
+  p{
+    margin: 0;
+  }
+  .degree , .title{
+    font-weight: bold;
+  }
+  .row-1{
+    flex-shrink: 0;
+    width: 10em;
+    text-align: center;
+  }
+  .summary{
+    font-size: .9em;
+  }
+  ul{
+    margin-top: .2em;
+  }
+}
+
+
 .paper {
-  /* Background pattern from Toptal Subtle Patterns */
-
-
   /* https://css-tricks.com/snippets/css/stack-of-paper/ */
   /* background: #e5dfcf; */
   box-shadow:

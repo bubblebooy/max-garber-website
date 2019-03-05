@@ -8,7 +8,10 @@ class About extends Component {
         <h2> About Me </h2>
         <p>Grew up and went to College in Santa Barbara</p>
         <p>In Chicago while my SO is getting a PHD at North Western</p>
-
+        <p>...</p>
+        <p>Interests</p>
+        <p>Hobbies</p>
+        <p>...</p>
       </div>
     );
   }

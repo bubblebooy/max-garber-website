@@ -9,9 +9,11 @@ const Education = (props) => {
         <p className="dates">{props.startDate} {props.endDate ? ` - ${props.endDate}` : null}</p>
       </div>
       <div className="row-2">
-        <p className="degree"> {props.degree}, </p>
-        <p className="school"> {props.school} </p>
-        {props.gpa ? <><br/><p className="GPA">GPA: {props.gpa}</p> </>: null}
+      <p>
+        <span className="degree"> {props.degree}, </span>
+        <span className="school"> {props.school} </span>
+      </p>
+        {props.gpa ? <p className="GPA">GPA: {props.gpa}</p> : null}
       </div>
     </a>
   );
