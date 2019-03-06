@@ -22,8 +22,7 @@ const store = createStore(rootReducer,composeEnhancers(applyMiddleware(thunk)))
 
 const app = (
   <Provider store ={store}>
-    <HashRouter
-      basename={"/max-garber-website"}>
+    <HashRouter>
       <App />
     </HashRouter>
   </Provider>
@@ -35,3 +34,5 @@ ReactDOM.render(app, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+//basename={"/max-garber-website"}
