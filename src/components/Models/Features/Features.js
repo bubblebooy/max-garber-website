@@ -1,20 +1,3 @@
-// import React from 'react';
-// import './Features.scss'
-// import Feature from './Feature/Feature'
-//
-// const features = (props) => {
-//   return (
-//     <div className="Features" ref={(e)=>{console.log(e && e.children[0].clientHeight);}}>
-//     {props.features.map((feature , index) =>(
-//       <Feature key={index} {...feature} />
-//     ))}
-//     </div>
-//   );
-// }
-//
-// export default features;
-
-
 import React, { Component } from 'react';
 import './Features.scss'
 import Feature from './Feature/Feature'
@@ -39,7 +22,12 @@ class Features extends Component {
 
           (height <= height2) ? height += children.shift().clientHeight : height2 += children.pop().clientHeight
         }
-      (height < height2) ? height = height2 : height = height;
+      if (document.documentElement.clientWidth > 700){
+        (height < height2) ? height = height2 : height = height;
+      } else {
+        height = height2 + height;
+      }
+
       if (height !== this.state.height){
         this.setState({height: height * 1.2})
       }

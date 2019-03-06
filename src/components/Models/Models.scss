@@ -5,6 +5,7 @@
   margin: auto;
   border-radius: 60px 0 0 0;
   h1{
+    margin-top: 0;
     border-radius: 50px 0 0 0;
     color: #dcc3c3;
     display: flex;
@@ -39,6 +40,9 @@
     }
   }
   .Body{
-    padding: 2em;
+    // padding: 1em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: .5em;
   }
 }

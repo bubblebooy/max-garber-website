@@ -1,0 +1,52 @@
+@keyframes redPulse{
+  from {color: #c00;}
+  to {color: #710101;}
+}
+
+.SubFeature{
+  width: 100%;
+  // padding: 0 1em;
+  border-left: solid 1px #ccc;
+  text-align: center;
+  p{
+    margin: 0 1em;
+  }
+  h3{
+    margin: .2em;
+  }
+  .title{
+    margin-top: 0;
+    color: black;
+    text-align: center;
+    animation-name: redPulse;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  .display{
+    display: block;
+    width: 18em;
+    height: 18em;
+    border-radius: .5em;
+    object-fit: cover;
+    margin: auto;
+  }
+  .thumnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1.5em;
+    .selected {
+      border: solid 3px #c00;
+    }
+    img{
+      box-sizing: border-box;
+      width: 8em;
+      height: 8em;
+      border-radius: .5em;
+      object-fit: cover;
+      margin-top: 1em;
+    }
+  }
+
+}

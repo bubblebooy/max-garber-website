@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Models.scss'
 import Features from './Features/Features'
+import SubFeature from './SubFeature/SubFeature'
 //DnD
 import dnd1 from '../../assets/images/modelsAndPrints/DnD-1.jpeg'
 import dnd2 from '../../assets/images/modelsAndPrints/DnD-2.jpeg'
@@ -13,6 +14,13 @@ import criticalRoleRendered from '../../assets/images/modelsAndPrints/CriticalRo
 import fearSpren from '../../assets/images/modelsAndPrints/FearSpren.png'
 
 import pinguinMindflayer from '../../assets/images/modelsAndPrints/PinguinMindflayer.png'
+import macePipe from '../../assets/images/modelsAndPrints/MacePipe.jpg'
+
+import maxAbyssal from '../../assets/images/modelsAndPrints/MaxAbyssal.jpeg'
+import maxDruid from '../../assets/images/modelsAndPrints/MaxDruid.jpeg'
+import maxFish from '../../assets/images/modelsAndPrints/MaxFish.jpeg'
+import maxSpider from '../../assets/images/modelsAndPrints/MaxSpider.jpeg'
+import maxWarrior from '../../assets/images/modelsAndPrints/MaxWarrior.jpeg'
 import ridingFacelessRex from '../../assets/images/modelsAndPrints/RidingFacelessRex.jpeg'
 
 class Models extends Component {
@@ -30,6 +38,7 @@ class Models extends Component {
       },
       {
         title : "Critical Role - The Mighty Nine",
+        description : "Modeled amd printed most of The Mighty Nine from the DnD twitch show Critical Role.",
         imgSrc : [
           criticalRolePrinted,
           criticalRoleRendered
@@ -39,19 +48,35 @@ class Models extends Component {
         title : "Miscellaneous Models",
         imgSrc : [
           pinguinMindflayer,
-          ridingFacelessRex
+          macePipe
         ],
         description : "Various models I made in Blender",
       },
       {
-        title : "Fear Spren",
+        title : <p>Fear Spren</p>,
         imgSrc : [fearSpren],
         description : "This is a fear sprean from Brandon Sandersons 'The Stormlight Archive'. I made this as part of my Shadesmar VR project",
       }
     ],
     abomaxtions: {
       title : "AboMAXations",
-      imgSrc : [],
+      description : "I got a full body scan of myself at CES 2017 and combined that with various parts of Dota2 models to make these AboMAXations",
+      imgSrc : [
+        maxAbyssal,
+        maxDruid,
+        maxFish,
+        maxSpider,
+        maxWarrior,
+        ridingFacelessRex,
+      ],
+      imgTitles: [
+        "Abyssal",
+        "Druid",
+        "Fishmax",
+        "Spidermax",
+        "Warrior",
+        "Riding Faceless Rex",
+      ]
     },
 
 
@@ -66,6 +91,7 @@ class Models extends Component {
           <div style={{transform: 'translateY(.1em)'}}> Prints </div> </h1>
         <div className="Body">
           <Features features={this.state.features}/>
+          <SubFeature {...this.state.abomaxtions}/>
         </div>
       </div>
     );
