@@ -1,0 +1,47 @@
+.Carousel{
+  width: 100%;
+  position: relative;
+  color: #eeee;
+  background-color: black;
+  img{
+    width: 100%;
+    transition: opacity .7s ease-out;
+    position: absolute;
+    opacity: 0;
+  }
+  .loaded{
+    height: 100%;
+    object-fit: cover;
+  }
+  .active{
+    opacity: 100;
+  }
+  &:hover{
+    .back , .forward, .controller{
+      opacity: 100;
+    }
+  }
+  .back , .forward , .controller{
+    transition: opacity .4s;
+    padding: 1em .2em;
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    // height: 100%;
+    background-color: #2226;
+    opacity: 0
+  }
+  .forward{
+    left: unset;
+    right: 0;
+  }
+  .controller{
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: .2em .2em;
+    top: unset;
+  }
+}

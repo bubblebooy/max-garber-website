@@ -1,0 +1,17 @@
+.Features {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 600px; // how do i do this without hard coding
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+  // grid-column-gap: 50px;
+  // border-right: solid 1px #ccc;
+  .Feature {
+    box-sizing: border-box;
+    padding: 1em;
+    display: inline-block;
+    width: 50%
+  }
+}

@@ -3,7 +3,6 @@ import React from 'react';
 import Education from "./Education/Education"
 
 const educations = (props) => {
-  console.log(props.education);
   return (
     <>
       {props.education.map((edu , index) => (
