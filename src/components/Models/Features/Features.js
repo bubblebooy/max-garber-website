@@ -41,7 +41,7 @@ class Features extends Component {
         }
       (height < height2) ? height = height2 : height = height;
       if (height !== this.state.height){
-        this.setState({height: height + 50})
+        this.setState({height: height * 1.2})
       }
     }
   }
