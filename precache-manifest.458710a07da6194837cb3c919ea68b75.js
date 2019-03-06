@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/DnD-4.a4440d03.jpeg"
   },
   {
-    "revision": "4e7fb00d843a428fdca2",
+    "revision": "9ed6688bc2a098aa019f",
     "url": "/max-garber-website/static/css/main.c7ab29c1.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/DnD-3.b336e82a.jpeg"
   },
   {
-    "revision": "4e7fb00d843a428fdca2",
-    "url": "/max-garber-website/static/js/main.4e7fb00d.chunk.js"
+    "revision": "9ed6688bc2a098aa019f",
+    "url": "/max-garber-website/static/js/main.9ed6688b.chunk.js"
   },
   {
     "revision": "872e9c8d8435fa8dfed59caed1d4b257",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/textured_paper.3c0f6fd6.png"
   },
   {
-    "revision": "648600f471bca39e6ecb18d70a9488b8",
+    "revision": "6553892198136ed300dc1fde2840c476",
     "url": "/max-garber-website/index.html"
   }
 ];
