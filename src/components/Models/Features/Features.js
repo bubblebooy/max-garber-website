@@ -23,21 +23,33 @@ class Features extends Component {
   state = {
     height: null
   }
+  featuresRef = null;
   refHandler = (element) => {
-    // if(element){
-    //   let height = 0
-    //   for (let child of element.children) {
-    //     height =+ child.clientHeight
-    //     console.log(child.clientHeight)
-    //   }
-    //   if (height != this.state.height){
-    //     this.setState({height: height})
-    //   }
-    // }
+    this.featuresRef = element
+    if(element){
+      this.setState({height: 0})
+    }
   }
+  onLoadHandler = () => {
+    if(this.featuresRef){
+      let height = 0
+      let height2 = 0
+      let children = [...this.featuresRef.children]
+      while (children.length > 0) {
+
+          (height <= height2) ? height += children.shift().clientHeight : height2 += children.pop().clientHeight
+        }
+      (height < height2) ? height = height2 : height = height;
+      if (height !== this.state.height){
+        this.setState({height: height + 50})
+      }
+    }
+  }
+
   render () {
+
     return (
-      <div className="Features" style={{height: this.state.height}} ref={this.refHandler}>
+      <div className="Features" style={{height: this.state.height}} ref={this.refHandler} onLoad={this.onLoadHandler}>
         {this.props.features.map((feature , index) =>(
           <Feature key={index} {...feature} />
         ))}

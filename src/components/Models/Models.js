@@ -10,6 +10,11 @@ import dnd4 from '../../assets/images/modelsAndPrints/DnD-4.jpeg'
 import criticalRolePrinted from '../../assets/images/modelsAndPrints/CriticalRolePrinted.jpg'
 import criticalRoleRendered from '../../assets/images/modelsAndPrints/CriticalRoleRendered.jpg'
 
+import fearSpren from '../../assets/images/modelsAndPrints/FearSpren.png'
+
+import pinguinMindflayer from '../../assets/images/modelsAndPrints/PinguinMindflayer.png'
+import ridingFacelessRex from '../../assets/images/modelsAndPrints/RidingFacelessRex.jpeg'
+
 class Models extends Component {
   state = {
     features: [
@@ -30,10 +35,19 @@ class Models extends Component {
           criticalRoleRendered
         ],
       },
-      // {
-      //   title : "macePipe",
-      //   imgSrc : [],
-      // }
+      {
+        title : "Miscellaneous Models",
+        imgSrc : [
+          pinguinMindflayer,
+          ridingFacelessRex
+        ],
+        description : "Various models I made in Blender",
+      },
+      {
+        title : "Fear Spren",
+        imgSrc : [fearSpren],
+        description : "This is a fear sprean from Brandon Sandersons 'The Stormlight Archive'. I made this as part of my Shadesmar VR project",
+      }
     ],
     abomaxtions: {
       title : "AboMAXations",

@@ -54,6 +54,17 @@ class Carousel extends Component {
         </div>
       )
     }
+    let controlls = (
+      <>
+        <div className="back" onClick={this.onBackHandler}> <FontAwesomeIcon icon="angle-left"/> </div>
+        <div className="forward" onClick={this.onForwardHandler}> <FontAwesomeIcon icon="angle-right"/> </div>
+        <div className="controller" onClick={this.onControllerHandler}> {this.state.play ? <FontAwesomeIcon icon="pause"/>:<FontAwesomeIcon icon="play"/>} </div>
+      </>
+    )
+
+    if (this.props.imgSrc.length <= 1) {
+      controlls = null
+    }
     return (
       <>
         <div className="Carousel" style={{height: this.state.height}}>
@@ -64,9 +75,7 @@ class Carousel extends Component {
               <img key={index} src={src} onLoad={(e)=>(this.onLoadHandler(e,index))} className={className}/>
             )
           })}
-          <div className="back" onClick={this.onBackHandler}> <FontAwesomeIcon icon="angle-left"/> </div>
-          <div className="forward" onClick={this.onForwardHandler}> <FontAwesomeIcon icon="angle-right"/> </div>
-          <div className="controller" onClick={this.onControllerHandler}> {this.state.play ? <FontAwesomeIcon icon="pause"/>:<FontAwesomeIcon icon="play"/>} </div>
+          {controlls}
         </div>
         {imgTitle}
       </>
