@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/FearSpren.ec857452.png"
   },
   {
-    "revision": "148d7bf241cf24351531",
-    "url": "/max-garber-website/static/css/main.b2200c99.chunk.css"
+    "revision": "be3358a1a3ea5a9fb324",
+    "url": "/max-garber-website/static/css/main.a0aa9338.chunk.css"
   },
   {
     "revision": "d3e2ba7671330f7d5fef",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/js/2.4001ae3f.chunk.js"
   },
   {
-    "revision": "dbc4f8cbb982cb9085960e3c5f55c0a3",
-    "url": "/max-garber-website/static/media/About-Photo.dbc4f8cb.jpeg"
+    "revision": "955895e6939e369e1ec6a5ebf6d349e4",
+    "url": "/max-garber-website/static/media/About-Photo.955895e6.jpeg"
   },
   {
     "revision": "61a046f1f2b1f79c192a2fc08118b023",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/CriticalRoleRendered.763d2e20.jpg"
   },
   {
-    "revision": "148d7bf241cf24351531",
-    "url": "/max-garber-website/static/js/main.148d7bf2.chunk.js"
+    "revision": "be3358a1a3ea5a9fb324",
+    "url": "/max-garber-website/static/js/main.be3358a1.chunk.js"
   },
   {
     "revision": "181229d01f1a22694ab8449d5dc950be",
@@ -88,15 +88,15 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/background-winter-beach.942afcb1.jpeg"
   },
   {
-    "revision": "c72df3db80cc7b22bcce2a2e26031432",
-    "url": "/max-garber-website/static/media/ricepaper2.c72df3db.png"
-  },
-  {
     "revision": "3c0f6fd6628902b2a8f2a3021b8862d5",
     "url": "/max-garber-website/static/media/textured_paper.3c0f6fd6.png"
   },
   {
-    "revision": "7f207ff8786ac4c25602ca3de4577237",
+    "revision": "c72df3db80cc7b22bcce2a2e26031432",
+    "url": "/max-garber-website/static/media/ricepaper2.c72df3db.png"
+  },
+  {
+    "revision": "bba08439e26b332e69ca258441730009",
     "url": "/max-garber-website/index.html"
   }
 ];
