@@ -2,18 +2,21 @@
   position: fixed;
   z-index: 100;
   padding-right: 3em;
-  // width: 70%;
+  width: 100%;
   height: 3em;
-  top: 1em;
-  background-color: #333;
-  background-image: linear-gradient(90deg, #111,#333);
+  top: 0;
+  background-color: black;
   transition: transform 1s;
+  font-weight: lighter;
   ul {
     display: flex;
+    flex-direction: column;
+    margin: .5em auto;
     li {
-      padding-left: 2em;
+      font-size: 1.5em;
       list-style: none;
       transition: transform .5s;
+      text-align: center;
       &:hover{
         transform: scale(1.2);
       }
@@ -23,29 +26,87 @@
     text-decoration: none;
     text-align: center;
     color: white;
+    display: none;
   }
   .active {
-    font-weight: bold;
+    // font-size: 1.5em;
+    font-weight: lighter;
+    display: inline;
   }
-  &:after {
-    // z-index: -1;
-    content: "";
-    width: 0;
-    height: 0;
-    position: absolute;
-    border-top: 0em solid #333;
-    border-bottom: 3em solid transparent;
-    border-left: 4em solid #333;
-    top: 0;
-    right: -4em;
-  }
-  &.collapsed{
-    transform: translateX(-95%);
-    background-image: linear-gradient(90deg, #111,#111);
-    &:after {
-      border-top: 0em solid #111;
-      border-left: 4em solid #111;
+  .menu{
+    font-size: 1.5em;
+    padding: .2em .5em;
+    position:  absolute;
+    top: 1em;
+    left: 1em;
+    transform: translateY(-50%);
+    color: white;
+    background-color: black;
+    border: none white 3px;
+    border-radius: 5px;
+    &:hover{
+      background-color: #333;
     }
-
+  }
+  &.expanded{
+    height: auto;
+    ul{
+      margin-top: 3em;
+      li{
+        text-align: left;
+      }
+    }
+    .active {
+      font-weight: normal;
+    }
+    a{
+      display: inline-block;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    width: auto;
+    top: 1em;
+    background-color: #333;
+    background-image: linear-gradient(90deg, #111,#333);
+    font-weight: normal;
+    .menu{
+      display: none;
+    }
+    ul{
+      flex-direction: row;
+      width: auto;
+      margin: 1em 0;
+      li{
+        font-size: 1em;
+        padding-left: 2em;
+        text-align: left;
+      }
+    }
+    a {
+      display: inline;
+    }
+    .active {
+      font-size: 1em;
+      font-weight: bold;
+    }
+    &:after {
+      content: "";
+      width: 0;
+      height: 0;
+      position: absolute;
+      border-top: 0em solid #333;
+      border-bottom: 3em solid transparent;
+      border-left: 4em solid #333;
+      top: 0;
+      right: -4em;
+    }
+    &.collapsed{
+      transform: translateX(-95%);
+      background-image: linear-gradient(90deg, #111,#111);
+      &:after {
+        border-top: 0em solid #111;
+        border-left: 4em solid #111;
+      }
+    }
   }
 }
