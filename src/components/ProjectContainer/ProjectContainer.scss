@@ -1,9 +1,10 @@
 .ProjectContainer{
+  box-sizing: border-box;
   border-style: solid;
   border-radius: 5px;
   border-width: 2px;
   border-color: #333;
-  width: 80%;
+  width: 100%;
   max-width: 800px;
   margin: 1em auto;
   color: black;
@@ -40,5 +41,8 @@
     &:hover{
       text-decoration: underline;
     }
+  }
+  @media only screen and (min-width: 700px) {
+    width: 80%;
   }
 }

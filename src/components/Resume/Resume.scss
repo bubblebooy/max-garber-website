@@ -123,17 +123,19 @@
 .paper {
   /* https://css-tricks.com/snippets/css/stack-of-paper/ */
   /* background: #e5dfcf; */
-  box-shadow:
-    /* The top layer shadow */
-    0 -1px 1px rgba(0,0,0,0.15),
-    /* The second layer */
-    5px -5px 0px 0px #d0cdc9,
-    /* The second layer shadow */
-    5px -5px 2px 0 rgba(0,0,0,0.3),
-     /* The third layer */
-    10px -10px 0 0 #d0cdc9,
-    /* The third layer shadow */
-    10px -10px 2px 0 rgba(0,0,0,0.3);
-    /* Padding for demo purposes */
-    // padding: 30px;
+  @media only screen and (min-width: 600px) {
+    box-shadow:
+      /* The top layer shadow */
+      0 -1px 1px rgba(0,0,0,0.15),
+      /* The second layer */
+      5px -5px 0px 0px #d0cdc9,
+      /* The second layer shadow */
+      5px -5px 2px 0 rgba(0,0,0,0.3),
+       /* The third layer */
+      10px -10px 0 0 #d0cdc9,
+      /* The third layer shadow */
+      10px -10px 2px 0 rgba(0,0,0,0.3);
+      /* Padding for demo purposes */
+      // padding: 30px;
+  }
 }

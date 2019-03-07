@@ -9,8 +9,8 @@
 .Curriculum {
   border-collapse: collapse;
   width: 100%;
-  border: 1px solid #eee;
-  box-shadow: 0 2px 3px #ccc;
+  border: 1px solid none #eee;
+  // box-shadow: 0 2px 3px #ccc;
   td, th{
     text-align: center;
     padding: .25em 0;
@@ -36,11 +36,8 @@
   .btn {
     display: inline-block;
     color: black;
-    border: solid 1px;
+    border: none 1px;
     font-weight: bold;
-    border-color: #7bacde;
-    // background-color: #7bacde3d;
-    border-radius: 5px;
     padding: .05em .5em;
     text-decoration: none;
     transition: .1s;
@@ -76,6 +73,16 @@
   }
   tbody{
     border: 1px solid #eee;
+    border-left: none;
+    border-right: none;
     padding: 0 .5em;
+  }
+  @media only screen and (min-width: 700px) {
+    border: 1px solid #eee;
+    .btn{
+      border: solid 1px #7bacde;
+      border-radius: 5px;
+
+    }
   }
 }
