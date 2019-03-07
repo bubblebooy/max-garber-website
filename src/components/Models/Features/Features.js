@@ -29,7 +29,7 @@ class Features extends Component {
       }
 
       if (height !== this.state.height){
-        this.setState({height: height * 1.2})
+        this.setState({height: height * 1.3})
       }
     }
   }
