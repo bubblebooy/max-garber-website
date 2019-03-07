@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/FearSpren.ec857452.png"
   },
   {
-    "revision": "2773c83ccab6194a631b",
-    "url": "/max-garber-website/static/css/main.7ef7f022.chunk.css"
+    "revision": "41d9f5d6c848078c776a",
+    "url": "/max-garber-website/static/css/main.39e66753.chunk.css"
   },
   {
     "revision": "d3e2ba7671330f7d5fef",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/CriticalRoleRendered.763d2e20.jpg"
   },
   {
-    "revision": "2773c83ccab6194a631b",
-    "url": "/max-garber-website/static/js/main.2773c83c.chunk.js"
+    "revision": "41d9f5d6c848078c776a",
+    "url": "/max-garber-website/static/js/main.41d9f5d6.chunk.js"
   },
   {
     "revision": "181229d01f1a22694ab8449d5dc950be",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/textured_paper.3c0f6fd6.png"
   },
   {
-    "revision": "6146878e6a51404fa19209a57791acaa",
+    "revision": "496f0baadc4968a910db8ff1b075a95a",
     "url": "/max-garber-website/index.html"
   }
 ];
