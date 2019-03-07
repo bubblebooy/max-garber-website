@@ -3,21 +3,33 @@
   top:30%;
   background: #2b5c8c;
   padding: 2em;
-  width: 60%;
+  width: 100%;
   max-width: 900px;
+  border-radius: 0 3em 0 0;
+  h2{
+    margin-top: 6em;
+  }
   img{
     position: float;
     float: right;
     margin-top: -100px;
-    margin-right: -100px;
+    margin-right: -20px;
     // top: -50px;
     // right: -75px;
     border-radius: 100%;
     width: 20em;
     height: 20em;
-    transform: rotate(90deg);
     object-fit: cover;
     object-position: 100% 2;
     border: solid 1em #50789e;
+  }
+  @media only screen and (min-width: 700px) {
+      width: 60%;
+      h2{
+        margin-top: auto;
+      }
+      img{
+        margin-right: -100px;
+      }
   }
 }

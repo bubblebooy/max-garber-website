@@ -6,17 +6,21 @@ body {
   height: calc(100vh - 10em);
   position: bottom;
   background-color: #252525;
-  background-image: radial-gradient(#2222, #222), linear-gradient(white, black) , url('./assets/images/background-winter-beach.jpeg') ;
-  background-blend-mode: darken, color , normal;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 70% top;
+
   color: White;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @media only screen and (min-width: 700px) {
+    background-image: radial-gradient(#2222, #222), linear-gradient(white, black) , url('./assets/images/background-winter-beach.jpeg') ;
+    background-blend-mode: darken, color , normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% top;
+  }
 }
 
 code {

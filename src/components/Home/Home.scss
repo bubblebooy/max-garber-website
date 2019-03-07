@@ -1,13 +1,13 @@
 .Home{
   .HomeName {
     position: absolute;
-    padding-left: 12em;
+
     top: 20%;
-    width: 50%;
-    right: 0;
-    text-align: left;
-    // background-color: #f008;
-    background-image: linear-gradient(-90deg, #f004, #f008 65%, #f008 85%, #f000);
+    width: 100%;
+    // right: 0;
+    text-align: center;
+    background-color: #f008;
+
     h1 {
       font-weight: lighter;
     }
@@ -21,4 +21,14 @@
     margin-top: 100px;
     margin-bottom: 100px;
   }
+    @media only screen and (min-width: 700px) {
+      .HomeName {
+        background-color: unset;
+        background-image: linear-gradient(-90deg, #f004, #f008 65%, #f008 85%, #f000);
+        text-align: left;
+        padding-left: 12em;
+        right: 0;
+        width: 50%;
+      }
+    }
 }
