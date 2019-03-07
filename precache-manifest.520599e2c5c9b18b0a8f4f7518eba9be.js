@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/FearSpren.ec857452.png"
   },
   {
-    "revision": "be3358a1a3ea5a9fb324",
-    "url": "/max-garber-website/static/css/main.a0aa9338.chunk.css"
+    "revision": "2773c83ccab6194a631b",
+    "url": "/max-garber-website/static/css/main.7ef7f022.chunk.css"
   },
   {
     "revision": "d3e2ba7671330f7d5fef",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/CriticalRoleRendered.763d2e20.jpg"
   },
   {
-    "revision": "be3358a1a3ea5a9fb324",
-    "url": "/max-garber-website/static/js/main.be3358a1.chunk.js"
+    "revision": "2773c83ccab6194a631b",
+    "url": "/max-garber-website/static/js/main.2773c83c.chunk.js"
   },
   {
     "revision": "181229d01f1a22694ab8449d5dc950be",
@@ -88,15 +88,15 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/background-winter-beach.942afcb1.jpeg"
   },
   {
-    "revision": "3c0f6fd6628902b2a8f2a3021b8862d5",
-    "url": "/max-garber-website/static/media/textured_paper.3c0f6fd6.png"
-  },
-  {
     "revision": "c72df3db80cc7b22bcce2a2e26031432",
     "url": "/max-garber-website/static/media/ricepaper2.c72df3db.png"
   },
   {
-    "revision": "bba08439e26b332e69ca258441730009",
+    "revision": "3c0f6fd6628902b2a8f2a3021b8862d5",
+    "url": "/max-garber-website/static/media/textured_paper.3c0f6fd6.png"
+  },
+  {
+    "revision": "6146878e6a51404fa19209a57791acaa",
     "url": "/max-garber-website/index.html"
   }
 ];
