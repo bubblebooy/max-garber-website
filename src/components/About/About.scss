@@ -1,11 +1,13 @@
 .About{
   position: absolute;
+  box-sizing: border-box;
   top:30%;
   background: #2b5c8c;
   padding: 2em;
   width: 100%;
   max-width: 900px;
   border-radius: 0 3em 0 0;
+  overflow-x: hidden;
   h2{
     margin-top: 6em;
   }
@@ -13,7 +15,7 @@
     position: float;
     float: right;
     margin-top: -100px;
-    margin-right: -20px;
+    margin-right: -100px;
     // top: -50px;
     // right: -75px;
     border-radius: 100%;
@@ -24,6 +26,7 @@
     border: solid 1em #50789e;
   }
   @media only screen and (min-width: 700px) {
+      overflow-x: visible;
       width: 60%;
       h2{
         margin-top: auto;

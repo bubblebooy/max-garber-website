@@ -306,10 +306,10 @@ class Programming extends Component {
   render () {
     return (
       <>
-        <ProjectContainer name='JS Artifact' description="Recreaction of Artifact in JavaScript" >
+        <ProjectContainer name='JS Artifact' description="Recreation of Artifact in JavaScript" >
           <p> A fun project to learn JavaScript Better </p>
           <p> <a href="https://playartifact.com/">Artifact</a> is a Card game made by Valve.
-              I Made JS-Artifact while waiting for Artifact to be realsed.
+              I made JS-Artifact while waiting for Artifact to be released.
               JS-Artifact has about 80% of the cards from and 95% rules parity with Artifact. </p>
           <p>
             <a href="https://bubblebooy.github.io/Artifact-Javascript/dist/index.html" target="_blank"> JS Artifact </a> :

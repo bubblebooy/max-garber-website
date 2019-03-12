@@ -29,6 +29,8 @@
     flex: 1 1 75%;
   }
   .Content{
+    width: 100%;
+    box-sizing: border-box;
     border-top: solid 1px #333;
     padding: 0.5em 2em;
     background-color:  white;

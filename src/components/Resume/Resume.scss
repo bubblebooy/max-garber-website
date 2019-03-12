@@ -79,6 +79,7 @@
 }
 
 .card {
+    overflow-x: hidden;
     background-color: #e4e6ea;
     /* Background pattern from Toptal Subtle Patterns */
     background-image: linear-gradient(#FFF8,#FFF8) , url('../../assets/images/textured_paper.png') ;

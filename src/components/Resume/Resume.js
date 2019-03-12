@@ -35,7 +35,7 @@ class Resume extends Component {
         companyLink: "http://www.wyattaerosol.com/",
         summary: "Development of an instrument for aerosol particle characterization",
         details: [
-          "Mechanical, optical, and electrical design and assembly of a prototype instrument",
+          "Mechanical, optical, and electrical, design and assembly of a prototype instrument",
           "Wrote a program in Microsoft Visual Studio to run the instrument and collect data",
           "Development of theory, running experiments, and data analysis with the prototype instrument",
           "Development of Igor procedures to analyze data from the instrument",

@@ -38,7 +38,7 @@ class Models extends Component {
       },
       {
         title : "Critical Role - The Mighty Nine",
-        description : "Modeled amd printed most of The Mighty Nine from the DnD twitch show Critical Role.",
+        description : "Modeled and printed most of The Mighty Nine from the DnD twitch show Critical Role.",
         imgSrc : [
           criticalRolePrinted,
           criticalRoleRendered
