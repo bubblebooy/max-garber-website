@@ -11,7 +11,7 @@ class About extends Component {
         <p>Grew up in Santa Barbara, California</p>
         <p>I went to University of California Santa Barbara where I got a Bachelor's degree in Physics</p>
         <p>I am in Chicago while my SO is getting a Material Science PHD at North Western</p>
-        <p>While in Chicago I have been teaching mself Web Development, Unity and 3D Modeling</p>
+        <p>While in Chicago I have been teaching myself Web Development, Unity and 3D Modeling</p>
         <p>Interests include DnD, Boardgames, 3D printing, VR, Food, Programming Projects, Computer Games, Scuba Diving, Skiing </p>
 
       </div>
