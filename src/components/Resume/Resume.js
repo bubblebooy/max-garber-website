@@ -4,6 +4,7 @@ import './Resume.scss'
 import Section from './Section/Section'
 import Educations from './Educations/Educations'
 import Experiences from './Experiences/Experiences'
+import Skills from './Skills/Skills'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -36,6 +37,19 @@ class Resume extends Component {
       },
     ],
     experience: [
+      {
+        title: "Data Scientist",
+        professor: null,
+        company: "Metis",
+        companyLink: "https://www.thisismetis.com/",
+        summary: "Immersive 12-week accredited data science bootcamp",
+        details: [
+           "Curriculum centered around Python, statistics, supervised and unsupervised machine learning, exploratory data analysis, databases, and visualization techniques",
+           "Completed five self designed data science projects from conception to presentation; including data collection, data management, exploratory data analysis, modeling, and visualizations"
+        ],
+        startDate: "2020",
+        endDate: null,
+      },
       {
         title: "Physics Engineer",
         professor: null,
@@ -92,7 +106,39 @@ class Resume extends Component {
         endDate: null,
       },
     ],
-    skills: {},
+    skill: [
+      {
+        skillGroup: "Programming Tools",
+        skills: [
+          "Python","Git", "GitHub", "PostgreSQL", "MongoDB", "Ruby", "React", "HTML", "JavaScript", "CSS", "C#", "C"
+        ],
+      },
+      {
+        skillGroup: "Python Packages",
+        skills: [
+          "Keras","TensorFlow", "scikit-learn", "NumPy", "Pandas", "BeautifulSoup", "Selenium", "NLTK", "OpenCV"
+        ],
+      },
+      {
+        skillGroup: "Machine Learning Algorithms",
+        skills: [
+          "Regression","Clustering", "Dimensionality Reduction", "Natural Language Processing", "Recommenders", "Deep Learning",
+           "Neural Networks", "Convolutional Neural Network"
+        ],
+      },
+      {
+        skillGroup: "Visualization",
+        skills: [
+          "Matplotlib", "Seaborn", "Tableau"
+        ]
+      },
+      {
+        skillGroup: "Other",
+        skills: [
+          "Mathematica", "IGOR Pro", "SolidWorks", "Autodesk Inventor", "LATEX"
+        ]
+      },
+    ],
   }
   render () {
     return (
@@ -100,11 +146,11 @@ class Resume extends Component {
         <h2> Max Garber </h2>
         <h3 className="downloadBanner"> <a href={resume}> Download PDF</a> </h3>
         <div className='Contact-Info card'>
-          <p> <FontAwesomeIcon icon="map-marked-alt"/> Chicago, IL </p>
+          <p> <FontAwesomeIcon icon="map-marked-alt"/> Santa Barbara, CA </p>
           <p> <FontAwesomeIcon icon="phone"/> +1 (805) 722 2219 </p>
           <p> <FontAwesomeIcon icon="envelope"/> MaxGarber@dpengineering.org </p>
           <p> <a href="https://github.com/bubblebooy"> <FontAwesomeIcon icon={['fab',"github"]} /> https://github.com/bubblebooy </a> </p>
-          <p> <a href="https://www.linkedin.com/in/max-garber-8693964a/"> <FontAwesomeIcon icon={['fab',"linkedin"]} /> www.linkedin.com/in/max-garber-8693964a </a> </p>
+          <p> <a href="https://www.linkedin.com/in/max-garber-8693964a/"> <FontAwesomeIcon icon={['fab',"linkedin"]} /> www.linkedin.com/in/max-garber </a> </p>
         </div>
         <Section name='Education'>
           <Educations education={this.state.education}/>
@@ -113,15 +159,7 @@ class Resume extends Component {
           <Experiences experiences={this.state.experience}/>
         </Section>
         <Section name='Skills'>
-          <ul>
-              <li> Mathematica </li>
-              <li> IGOR Pro </li>
-              <li> LATEX </li>
-              <li> Machine Shop </li>
-              <li> CAD: Solidworks, Autodesk Inventor  </li>
-              <li> Microsoft Office </li>
-              <li> Programing: JavaScript, Ruby on Rails, C, C++ </li>
-          </ul>
+          <Skills skills={this.state.skill}/>
          </Section>
       </div>
     );

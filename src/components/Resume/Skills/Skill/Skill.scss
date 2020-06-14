@@ -1,0 +1,7 @@
+.Skill li {
+  display: inline;
+}
+
+.Skill li:not(:last-child)::after {
+    content: " \00b7 ";
+}
