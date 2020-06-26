@@ -150,7 +150,7 @@ class Resume extends Component {
           <p> <FontAwesomeIcon icon="phone"/> +1 (805) 722 2219 </p>
           <p> <FontAwesomeIcon icon="envelope"/> MaxGarber@dpengineering.org </p>
           <p> <a href="https://github.com/bubblebooy"> <FontAwesomeIcon icon={['fab',"github"]} /> https://github.com/bubblebooy </a> </p>
-          <p> <a href="https://www.linkedin.com/in/max-garber-8693964a/"> <FontAwesomeIcon icon={['fab',"linkedin"]} /> www.linkedin.com/in/max-garber </a> </p>
+          <p> <a href="https://www.linkedin.com/in/max-garber"> <FontAwesomeIcon icon={['fab',"linkedin"]} /> www.linkedin.com/in/max-garber </a> </p>
         </div>
         <Section name='Education'>
           <Educations education={this.state.education}/>

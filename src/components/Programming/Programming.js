@@ -309,7 +309,7 @@ class Programming extends Component {
         <ProjectContainer name='Metis' description="Immersive 12-week accredited data science bootcamp" >
           <p> Curriculum centered around Python, statistics, supervised and unsupervised machine learning, exploratory data analysis, databases, and visualization techniques </p>
           <p>
-            Custom PC recommender:
+            <a href= "https://youtu.be/KsPTbgpVeDY"> Custom PC recommender </a> :
             <a href="https://github.com/bubblebooy/Metis-Project-5-PC-recommender" target="_blank"> Github </a>
               <li> Developed a recommender system for custom PC-builds using data scraped from PcPartPicker.com </li>
               <li> Built a PC-build autoencoder using Keras </li>
@@ -317,11 +317,11 @@ class Programming extends Component {
 
           </p>
           <p>
-            Reddit Discussions of TV episodes :
+            <a href= "https://bubblebooy.github.io/2020/04/22/Project-4/"> Reddit Discussions of TV episodes </a> :
             <a href="https://github.com/bubblebooy/Metis-Project-4" target="_blank"> Github </a>
             <br/>  Analysis of Reddit post via Natural Language Processing
-            <li> Created a Mongo database from Reddit, The Movie Database, and Rotten Tomatoes </li>
-            <li> Cleaning, Tokenization, POS tagging, Stopwords, Stemming, Count Vectorizer, TF-IDF </li>
+            <li> Created a Mongo database with data from Reddit, The Movie Database, and Rotten Tomatoes </li>
+            <li> Text Processing : Cleaning, Tokenization, POS tagging, Stopwords, Stemming, Count Vectorizer, TF-IDF </li>
             <li> Topic modeling using Latent Semantic Analysis and Sentiment analysis using VADER </li>
 
           </p>
