@@ -4,7 +4,7 @@ import './Education.scss'
 const Education = (props) => {
 
   return (
-    <a className="Education" href={props.link} target="_blank">
+    <a className="Education" href={props.link} target="_blank" rel="noopener noreferrer">
       <div className="row-1">
         <p className="dates">{props.startDate} {props.endDate ? ` - ${props.endDate}` : null}</p>
       </div>

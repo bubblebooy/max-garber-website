@@ -20,7 +20,7 @@ class Carousel extends Component {
     let loaded = [...this.state.loaded]
     let height = this.state.height
     loaded[index]=true
-    if (height == 0 || height > e.target.height){
+    if (height === 0 || height > e.target.height){
       height = e.target.height
     }
     this.setState({height: height, loaded: loaded})
@@ -45,7 +45,7 @@ class Carousel extends Component {
     this.setState((preState)=>({play: !preState.play}))
   }
   render () {
-    let className = Array(this.props.imgSrc.length).fill([])
+    // let className = Array(this.props.imgSrc.length).fill([])
     let imgTitle = null
     if (this.props.imgTitles){
       imgTitle = (
@@ -70,7 +70,7 @@ class Carousel extends Component {
         <div className="Carousel" style={{height: this.state.height}}>
           {this.props.imgSrc.map((src,index)=>{
             let className = this.state.loaded[index] ? "loaded" : ""
-            className += (this.state.index == index) ? " active" : ""
+            className += (this.state.index === index) ? " active" : ""
             return(
               <img key={index} src={src} onLoad={(e)=>(this.onLoadHandler(e,index))} className={className}/>
             )

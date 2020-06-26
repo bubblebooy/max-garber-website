@@ -309,16 +309,16 @@ class Programming extends Component {
         <ProjectContainer name='Metis' description="Immersive 12-week accredited data science bootcamp" >
           <p> Curriculum centered around Python, statistics, supervised and unsupervised machine learning, exploratory data analysis, databases, and visualization techniques </p>
           <p>
-            <a href= "https://youtu.be/KsPTbgpVeDY"> Custom PC recommender </a> :
-            <a href="https://github.com/bubblebooy/Metis-Project-5-PC-recommender" target="_blank"> Github </a>
+            <a href= "https://youtu.be/KsPTbgpVeDY" target="_blank" rel="noopener noreferrer"> Custom PC recommender </a> :
+            <a href="https://github.com/bubblebooy/Metis-Project-5-PC-recommender" target="_blank" rel="noopener noreferrer"> Github </a>
               <li> Developed a recommender system for custom PC-builds using data scraped from PcPartPicker.com </li>
               <li> Built a PC-build autoencoder using Keras </li>
               <li> Created a Flask web app for the recommender </li>
 
           </p>
           <p>
-            <a href= "https://bubblebooy.github.io/2020/04/22/Project-4/"> Reddit Discussions of TV episodes </a> :
-            <a href="https://github.com/bubblebooy/Metis-Project-4" target="_blank"> Github </a>
+            <a href= "https://bubblebooy.github.io/2020/04/22/Project-4/" target="_blank" rel="noopener noreferrer"> Reddit Discussions of TV episodes </a> :
+            <a href="https://github.com/bubblebooy/Metis-Project-4" target="_blank" rel="noopener noreferrer"> Github </a>
             <br/>  Analysis of Reddit post via Natural Language Processing
             <li> Created a Mongo database with data from Reddit, The Movie Database, and Rotten Tomatoes </li>
             <li> Text Processing : Cleaning, Tokenization, POS tagging, Stopwords, Stemming, Count Vectorizer, TF-IDF </li>
@@ -326,8 +326,8 @@ class Programming extends Component {
 
           </p>
           <p>
-            <a href="https://public.tableau.com/profile/max.garber#!/vizhome/Book1_15887369472740/Covid-19" target="_blank"> Covid - 19 Risk Factors </a> :
-            <a href="https://github.com/bubblebooy/Metis-Project-3-Covid19mx" target="_blank"> Github </a>
+            <a href="https://public.tableau.com/profile/max.garber#!/vizhome/Book1_15887369472740/Covid-19" target="_blank" rel="noopener noreferrer"> Covid - 19 Risk Factors </a> :
+            <a href="https://github.com/bubblebooy/Metis-Project-3-Covid19mx" target="_blank" rel="noopener noreferrer"> Github </a>
             <br/> Classification of Covid-19 mortality in Mexico
             <li> Created an SQL database with Mexican Health Department Covid-19 records </li>
             <li> Developed a logistic regression classification model for the survival of people with Covid-19 </li>
@@ -336,8 +336,8 @@ class Programming extends Component {
 
           </p>
           <p>
-            <a href="https://bubblebooy.github.io/2020/04/19/Project-2/" target="_blank"> Board Game Ratings </a> :
-            <a href="https://github.com/bubblebooy/Metis-Project-2-BGG" target="_blank"> Github </a>
+            <a href="https://bubblebooy.github.io/2020/04/19/Project-2/" target="_blank" rel="noopener noreferrer"> Board Game Ratings </a> :
+            <a href="https://github.com/bubblebooy/Metis-Project-2-BGG" target="_blank" rel="noopener noreferrer"> Github </a>
             <li> Scraped features and scores of board games from BoardGameGeek.com </li>
             <li> Models the relationship between board games features and their scores with a  linear regression model </li>
 
@@ -347,22 +347,22 @@ class Programming extends Component {
         <ProjectContainer name='Kaggle' description="Grow your data science skills by competing in exciting competitions" >
           <p> I competed in several Kaggle competitions to develop my Machine Learning Skills
             <br />
-            <a href="https://www.kaggle.com/maxgarber" target="_blank"> Kaggle Profile </a>
+            <a href="https://www.kaggle.com/maxgarber" target="_blank" rel="noopener noreferrer"> Kaggle Profile </a>
           </p>
           <p>
-            <a href="https://www.kaggle.com/c/deepfake-detection-challenge" target="_blank"> Deepfake Detection Challenge </a> :
+            <a href="https://www.kaggle.com/c/deepfake-detection-challenge" target="_blank" rel="noopener noreferrer"> Deepfake Detection Challenge </a> :
             Finished top 8%.
             <br />
             Developed video deepfake classification in Keras with an Xception model into a CNN-LSTM.
           </p>
           <p>
-            <a href="https://www.kaggle.com/c/understanding_cloud_organization" target="_blank"> Understanding Clouds from Satellite Images </a> :
+            <a href="https://www.kaggle.com/c/understanding_cloud_organization" target="_blank" rel="noopener noreferrer"> Understanding Clouds from Satellite Images </a> :
             Finished top 9%.
             <br />
             Image segmentation of clouds from satellite Images in Keras using an ensemble of ResNet U-Nets and EfficientNet U-Nets
           </p>
           <p>
-            <a href="https://www.kaggle.com/c/generative-dog-images" target="_blank"> Generative Dog Images </a> :
+            <a href="https://www.kaggle.com/c/generative-dog-images" target="_blank" rel="noopener noreferrer"> Generative Dog Images </a> :
             Finished top 21%.
             <br />
             Developed a GAN from scratch to generate images of dogs in Keras
@@ -376,8 +376,8 @@ class Programming extends Component {
               I made JS-Artifact while waiting for Artifact to be released.
               JS-Artifact has about 80% of the cards from and 95% rules parity with Artifact. </p>
           <p>
-            <a href="https://bubblebooy.github.io/Artifact-Javascript/dist/index.html" target="_blank"> JS Artifact </a> :
-            <a href="https://github.com/bubblebooy/Artifact-Javascript" target="_blank"> Github </a>
+            <a href="https://bubblebooy.github.io/Artifact-Javascript/dist/index.html" target="_blank" rel="noopener noreferrer"> JS Artifact </a> :
+            <a href="https://github.com/bubblebooy/Artifact-Javascript" target="_blank" rel="noopener noreferrer"> Github </a>
           </p>
         </ProjectContainer>
 
@@ -385,8 +385,8 @@ class Programming extends Component {
           <p>The Udemy course: <a href="https://www.udemy.com/react-the-complete-guide-incl-redux/">React - The Complete Guide (incl Hooks, React Router, Redux). </a></p>
           <p>After finnishing The Odin Project I wanted to learn more React. </p>
           <p>
-            <a href="https://bubblebooy.github.io/Burger-Builder/" target="_blank"> Burger Builder </a> :
-            <a href="https://github.com/bubblebooy/Burger-Builder" target="_blank"> Github </a>
+            <a href="https://bubblebooy.github.io/Burger-Builder/" target="_blank" rel="noopener noreferrer"> Burger Builder </a> :
+            <a href="https://github.com/bubblebooy/Burger-Builder" target="_blank" rel="noopener noreferrer"> Github </a>
           </p>
 
         </ProjectContainer>

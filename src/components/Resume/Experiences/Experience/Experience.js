@@ -11,7 +11,7 @@ const experience = (props) => {
         <p>
           <span className="title"> {props.title}, </span>
           {props.professor ? <span className="professor"><i> {props.professor}, </i></span>: null}
-          <a className="company" href={props.companyLink} target="_blank"> {props.company}. </a>
+          <a className="company" href={props.companyLink} target="_blank" rel="noopener noreferrer"> {props.company}. </a>
         </p>
         <p className="summary">
           {props.summary}

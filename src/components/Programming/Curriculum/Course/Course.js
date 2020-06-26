@@ -7,14 +7,14 @@ const course = (props) => {
     <tbody>
     <tr><td colSpan="4"></td></tr>
       <tr className="tableCourse">
-        <td rowSpan={props.assignments.length + 1}><a href={props.courseLink}  target="_blank">{props.courseName}</a></td>
+        <td rowSpan={props.assignments.length + 1}><a href={props.courseLink}  target="_blank" rel="noopener noreferrer">{props.courseName}</a></td>
       </tr>
       {props.assignments.map((assignment)=>{
-        let view = assignment.view ? <a className="btn" href={assignment.view} target="_blank"> View </a> : null
+        let view = assignment.view ? <a className="btn" href={assignment.view} target="_blank" rel="noopener noreferrer"> View </a> : null
         return (
           <tr key={assignment.name.replace(/\s/g, '')}>
-            <td className="assignmentName"> <a href={assignment.link} target="_blank"> {assignment.name} <FontAwesomeIcon icon="link" /> </a> </td>
-            <td> <a className="github" href={assignment.github} target="_blank"> <FontAwesomeIcon icon={['fab',"github"]} /> </a> </td>
+            <td className="assignmentName"> <a href={assignment.link} target="_blank" rel="noopener noreferrer"> {assignment.name} <FontAwesomeIcon icon="link" /> </a> </td>
+            <td> <a className="github" href={assignment.github} target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={['fab',"github"]} /> </a> </td>
             <td> {view} </td>
           </tr>
         )
