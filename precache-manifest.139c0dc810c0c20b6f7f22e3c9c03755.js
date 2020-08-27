@@ -88,12 +88,12 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/background-winter-beach.942afcb1.jpeg"
   },
   {
-    "revision": "c72df3db80cc7b22bcce2a2e26031432",
-    "url": "/max-garber-website/static/media/ricepaper2.c72df3db.png"
-  },
-  {
     "revision": "3c0f6fd6628902b2a8f2a3021b8862d5",
     "url": "/max-garber-website/static/media/textured_paper.3c0f6fd6.png"
+  },
+  {
+    "revision": "c72df3db80cc7b22bcce2a2e26031432",
+    "url": "/max-garber-website/static/media/ricepaper2.c72df3db.png"
   },
   {
     "revision": "613262835083cfd12ea3c6f3b209eb6f",
