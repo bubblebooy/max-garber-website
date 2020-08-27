@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/textured_paper.3c0f6fd6.png"
   },
   {
-    "revision": "cb7cc14ea7e2998c024ad3404a88b241",
+    "revision": "613262835083cfd12ea3c6f3b209eb6f",
     "url": "/max-garber-website/index.html"
   }
 ];
