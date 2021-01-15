@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/FearSpren.ec857452.png"
   },
   {
-    "revision": "bef89e513ee1b5fc303f",
+    "revision": "1f628e65b904d1711c63",
     "url": "/max-garber-website/static/css/main.2f1de885.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/About-Photo.955895e6.jpeg"
   },
   {
-    "revision": "881add099337fd8f49c07434c853e8bb",
-    "url": "/max-garber-website/static/media/Max Garber Resume.881add09.pdf"
+    "revision": "4a28fcc21f3c70c5897f251f9775e2b4",
+    "url": "/max-garber-website/static/media/Max Garber Resume.4a28fcc2.pdf"
   },
   {
     "revision": "b85504fb2cc454eef64d57991cd26215",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/CriticalRoleRendered.763d2e20.jpg"
   },
   {
-    "revision": "bef89e513ee1b5fc303f",
-    "url": "/max-garber-website/static/js/main.bef89e51.chunk.js"
+    "revision": "1f628e65b904d1711c63",
+    "url": "/max-garber-website/static/js/main.1f628e65.chunk.js"
   },
   {
     "revision": "181229d01f1a22694ab8449d5dc950be",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "/max-garber-website/static/media/textured_paper.3c0f6fd6.png"
   },
   {
-    "revision": "e2e0b97b3232e59170e43c35afc52c12",
+    "revision": "df2e5eafb76b939aba341b13c8679c41",
     "url": "/max-garber-website/index.html"
   }
 ];
